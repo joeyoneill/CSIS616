@@ -17,3 +17,7 @@
        For Linux/UNIX you can type:
        
         ./main <args>
+        
+       Such that the args are a list of nodes seperated by a comma:
+       
+        ex: main a,b,c,d
