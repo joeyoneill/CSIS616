@@ -66,3 +66,12 @@ fn main() {
     // Writes digraph_txt to stdout
     io::stdout().write_all(digraph_txt.as_bytes()).unwrap();
 }
+
+// Test functions
+#[test]
+fn test_string_mutability() {
+    let mut test_string: String = "This is a ".to_owned();
+    let true_string: String = "This is a test".to_owned();
+    test_string.push_str("test");
+    assert_eq!(test_string, true_string);
+}
