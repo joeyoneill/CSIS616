@@ -3,7 +3,7 @@
 1.) CSIS616_HW2
  - Contains 616 hw 1.pdf and CSIS616_program2
  
-   i. Go into the CSIS616_program1/src and compile with:
+   i. Go into the CSIS616_program2/src and compile with:
    
       rustc main.rs
       
@@ -12,12 +12,16 @@
       
        For windows you can type:
        
-        main <args>
+        main <filename>
         
+       Such that the file is a .yaml file.
+       
        For Linux/UNIX you can type:
        
-        ./main <args>
+        ./main <filename>
         
-       Such that the args are a list of nodes seperated by a comma:
+       Such that the file is a .yaml file.
+      
+      To test:
        
-        ex: main a,b,c,d
+       cargo main.rs test
