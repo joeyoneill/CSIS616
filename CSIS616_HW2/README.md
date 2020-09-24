@@ -24,4 +24,6 @@
       
       To test:
        
-       cargo main.rs test
+       Go to CSIS616_program2 and type:
+       
+        cargo main.rs test
