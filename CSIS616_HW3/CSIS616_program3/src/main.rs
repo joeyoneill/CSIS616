@@ -317,3 +317,21 @@ impl StateGraph {
         return accept;
     }
 }
+
+// Test Functions
+#[test]
+fn test_input_alphabet_function() {
+    let alphabet = ['A', 'B'];
+    let s = "ABBA";
+
+    for letter in s.chars() {
+        let mut contains = false;
+        for symbol in &alphabet {
+            if letter == *symbol {
+                contains = true;
+                break;
+            }
+        }
+        assert_eq!(contains, true);
+    }
+}
