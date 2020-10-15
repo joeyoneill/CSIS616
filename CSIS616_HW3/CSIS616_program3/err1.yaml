@@ -1,0 +1,8 @@
+---
+alphabet: ['0', '1']
+start: 1
+accept: [2,3]
+transitions:
+  - [1, 2]
+  - [2]
+  - [1, 3] 
