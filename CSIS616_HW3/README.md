@@ -3,7 +3,7 @@
 1.) CSIS616_HW3
  - Contains 616 hw 3.pdf and CSIS616_program3
  
-   i. Go into the CSIS616_program3/src and compile with:
+   i. Go into the CSIS616_program3/src directory and compile with:
    
       rustc main.rs
       
@@ -24,6 +24,6 @@
       
       To test:
        
-       Go to CSIS616_program2 and type:
+       Go to CSIS616_program3 directory and type:
        
         cargo test
