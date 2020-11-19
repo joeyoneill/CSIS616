@@ -1,0 +1,10 @@
+---
+alphabet: ['x', 'y']
+start: 1
+accept: [4]
+transitions:
+  - [1, 2]
+  - [2, 2]
+  - [2, 3]
+  - [3, 3]
+  - [3, 4] 
